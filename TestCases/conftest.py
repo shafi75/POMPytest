@@ -1,3 +1,4 @@
+import edge as edge
 import pytest
 from allure_commons.types import AttachmentType
 from selenium import webdriver
@@ -28,15 +29,16 @@ def log_on_failure(request,get_browser):
         allure.attach(driver.get_screenshot_as_png(),name="error",attachment_type=AttachmentType.PNG)
 
 
-@pytest.fixture(params=["chrome"],scope="function")
+@pytest.fixture(params=["chrome","firefox","edge"],scope="function")
 def get_browser(request):
     global driver
+    request_url="http://localhost:4444/wd/hub"
     if request.param=="chrome":
-        driver=webdriver.Chrome(executable_path=ChromeDriverManager().install())
-    # if request.param=="firefox":
-    #     driver=webdriver.Firefox(executable_path=GeckoDriverManager().install())
-    # if request.param=="edge":
-    #     driver=webdriver.Firefox(executable_path=EdgeChromiumDriverManager().install())
+        driver=webdriver.Remote(command_executor=request_url,desired_capabilities={"browserName":"chrome"})
+    if request.param=="firefox":
+        driver=webdriver.Remote(command_executor=request_url,desired_capabilities={"browserName":"firefox"})
+    if request.param=="edge":
+        driver=webdriver.Remote(command_executor=request_url,desired_capabilities={"browserName":"edge"})
     request.cls.driver=driver
     driver.maximize_window()
     driver.implicitly_wait(10)

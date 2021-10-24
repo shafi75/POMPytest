@@ -10,13 +10,14 @@ from Utilities import dataProvider as dp
 log=Logger(__name__,logging.INFO)
 
 class Test_CarWale(BaseTest):
-    @pytest.mark.skip
+    @pytest.mark.sanity
     def test_carwale(self):
         log.logger.info("******************Inside New Car Test**************")
         home=HomePage(self.driver)
         home.gotoNewCars()
         time.sleep(5)
 
+    @pytest.mark.functional
     @pytest.mark.parametrize("carModel,carTitle",dp.get_data("..//Excel//testdata.xlsx","NewCarsPage"))
     def test_SelectCars(self,carModel,carTitle):
         log.logger.info("******************Inside Select Car Test**************")
