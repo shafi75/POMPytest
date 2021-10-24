@@ -1,0 +1,155 @@
+{
+  "6aefdfc8b1737150568d7e63f8b8d777" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "73fee350027054c1",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/2/allure/#testresult/73fee350027054c1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=94.0.4606.81)",
+      "time" : {
+        "start" : 1635002959691,
+        "stop" : 1635002959691,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b75ed62b7c10d67f",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/1/allure/#testresult/b75ed62b7c10d67f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'Find New Cars')]\"}\n  (Session info: chrome=94.0.4606.81)",
+      "time" : {
+        "start" : 1635002860665,
+        "stop" : 1635002871020,
+        "duration" : 10355
+      }
+    } ]
+  },
+  "8477a9ccdb72fabce6e5fe4d697fe05b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d7327e9cdf7d1ef6",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/2/allure/#testresult/d7327e9cdf7d1ef6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=94.0.4606.81)",
+      "time" : {
+        "start" : 1635002937441,
+        "stop" : 1635002937469,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "463b6417987b884b",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/1/allure/#testresult/463b6417987b884b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'Find New Cars')]\"}\n  (Session info: chrome=94.0.4606.81)",
+      "time" : {
+        "start" : 1635002728293,
+        "stop" : 1635002740610,
+        "duration" : 12317
+      }
+    } ]
+  },
+  "407bc6b896069e9b6c4b35b4e319b9f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f2e9749df788db13",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/2/allure/#testresult/f2e9749df788db13",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1635002924118,
+        "stop" : 1635002924118,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "25450fd7e07fa8a6",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/1/allure/#testresult/25450fd7e07fa8a6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1635002692893,
+        "stop" : 1635002692893,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d0d89066a07d3b28162353c63f81e968" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e217a0b1bacd354b",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/2/allure/#testresult/e217a0b1bacd354b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=94.0.4606.81)",
+      "time" : {
+        "start" : 1635002950673,
+        "stop" : 1635002950673,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ddf1d65ed04e8be3",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/1/allure/#testresult/ddf1d65ed04e8be3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635002815377,
+        "stop" : 1635002831170,
+        "duration" : 15793
+      }
+    } ]
+  },
+  "a7e3ccb0332cd406738d80ae5250f23f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a16932f892f6e746",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/2/allure/#testresult/a16932f892f6e746",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=94.0.4606.81)",
+      "time" : {
+        "start" : 1635002940789,
+        "stop" : 1635002940789,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "39f145b163691c34",
+      "reportUrl" : "http://localhost:8080/job/PytestPOMProject/1/allure/#testresult/39f145b163691c34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635002775092,
+        "stop" : 1635002790737,
+        "duration" : 15645
+      }
+    } ]
+  }
+}

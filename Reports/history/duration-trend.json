@@ -1,0 +1,11 @@
+[ {
+  "reportUrl" : "http://localhost:8080/job/PytestPOMProject/2/allure",
+  "data" : {
+    "duration" : 35573
+  }
+}, {
+  "reportUrl" : "http://localhost:8080/job/PytestPOMProject/1/allure",
+  "data" : {
+    "duration" : 178127
+  }
+} ]
